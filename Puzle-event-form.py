@@ -2,8 +2,7 @@ import pyrebase
 import flet as ft
 from flet import View
 import os
-import urllib
-import urllib.request
+
 
 
 path_dir = os.path.dirname(os.path.abspath(__file__))
@@ -316,8 +315,7 @@ def main(page: ft.Page):
                 ),
                
             ),
-        # if page.route == "/Homepage":
-        #     main_screen(page)
+
 
         page.theme_mode = ft.ThemeMode.LIGHT
         page.update()
